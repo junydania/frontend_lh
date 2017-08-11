@@ -8193,7 +8193,7 @@ body {
 
 .main > div,
 .main > section {
-  background: #000;
+  background: white;
 }
 
 @media (max-width: 1132px) {
@@ -8968,7 +8968,7 @@ textarea.form__field {
   width: 100%;
   left: 0;
   top: 0;
-  background: #000;
+  background: white;
   font-size: 18px;
 }
 

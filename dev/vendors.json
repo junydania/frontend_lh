@@ -1,0 +1,5 @@
+{
+  "vendors" :  [
+    "bower_components/slick-carousel/**/*"
+  ]
+}

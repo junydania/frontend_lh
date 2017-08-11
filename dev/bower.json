@@ -1,0 +1,26 @@
+{
+  "name": "work_template",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "divothemes"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "slick-carousel": "https://github.com/kenwheeler/slick.git#^1.6.0",
+    "jquery-mousewheel": "https://github.com/jquery/jquery-mousewheel.git#^3.1.13",
+    "font-awesome": "https://github.com/FortAwesome/Font-Awesome.git#^4.7.0",
+    "bootstrap-sass": "^3.3.7",
+    "scrollreveal": "https://github.com/jlmakes/scrollreveal.git#^3.3.4"
+  }
+}

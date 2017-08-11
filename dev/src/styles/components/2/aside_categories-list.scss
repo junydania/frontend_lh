@@ -1,0 +1,103 @@
+/* ----------------------------------- **
+   #ASIDE CATEGORIES LIST
+** ----------------------------------- */
+
+
+.aside_categories-list {
+   display: block;
+   background: #131313;
+   position: relative;
+   z-index: 10;
+   margin-bottom: 20px;
+   padding: 10px;
+
+   .btn {
+      margin: 0;
+      width: 100%;
+   }
+}
+
+.aside_categories-list__heading {
+   font-size: 20px;
+   line-height: 1.333333333;
+   color: #7d7d7d;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: .8em;
+   margin-bottom: 13px;
+}
+
+.categories-menu {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   padding-bottom: 20px;
+
+   li {
+      a {
+         color: $color_text_2;
+         font-size: 16px;
+         line-height: 1.375;
+         padding: 6.5px 15px;
+         position: relative;
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         align-items: center;
+
+         &:focus {
+            color: $color_text_2;
+            text-decoration: none;
+         }
+
+         &:hover {
+            color: $color_white;
+            text-decoration: none;
+         }
+      }
+
+      &.is-active {
+         a {
+            background: #1f1f1f;
+            color: $color_white;
+         }
+      }
+   }
+}
+
+.categories-menu__badge {
+   font-size: 14px;
+   color: #4c4c4c;
+}
+
+.aside_categories-list__collapse {
+   display: none;
+   position: absolute;
+   width: 100%;
+   left: 0;
+   background: #131313;
+   z-index: 1;
+}
+
+@media (min-width: 739px) {
+
+   .aside_categories-list__toggle {
+      display: none;
+   }
+
+   .aside_categories-list__collapse {
+      display: block;
+   }
+
+   .aside_categories-list {
+      padding-top: 33px;
+      margin-bottom: 10px;
+   }
+
+   .aside_categories-list__heading {
+      font-size: 24px;
+      padding-top: 0;
+   }
+
+}
+

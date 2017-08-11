@@ -1,0 +1,21 @@
+/* ----------------------------------- **
+   #BANNERS
+** ----------------------------------- */
+
+.section_banners {
+   border-top: 1px solid $color_border;
+   padding-top: 66px;
+   padding-bottom: 35px;
+   text-align: center;
+
+   @include breakpoint(tablet-h__desktop) {
+      .row > * {
+         width: 33.333%;
+
+         &:last-of-type {
+            display: none;
+         }
+      }
+   }
+
+}

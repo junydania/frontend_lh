@@ -1,0 +1,118 @@
+/* ----------------------------------- **
+   #INFO
+** ----------------------------------- */
+
+.info-block {
+   padding-bottom: 33px;
+   padding-top: 62px;
+   position: relative;
+   @include border-top;
+
+   h3 {
+      color: $color_text_3;
+      @include f-roboto_r;
+      margin: 0;
+      font-size: 32px;
+      line-height: 1.34375;
+      margin-bottom: 25px;
+      padding-right: 2em;
+   }
+
+   p {
+      color: $color_text_3;
+      letter-spacing: .01em;
+      font-size: 17px;
+      line-height: 1.5;
+      padding-right: 1em;
+   }
+}
+
+.info-block__col {
+   max-width: 490px;
+   padding-right: 20px;
+}
+
+.seo-spoiler {
+   &.is-opened {
+      .seo-spoiler__text {
+         transition-delay: 0.2s;
+         opacity: 1;
+      }
+   }
+}
+
+.seo-spoiler__wrap {
+   overflow: hidden;
+   height: 0;
+   margin-bottom: 8px;
+}
+
+.seo-spoiler__text {
+   opacity: 0;
+   transition: all 0.3s;
+   padding-bottom: 1px;
+   @include clearfix;
+}
+
+.seo-spoiler__link-center {
+   text-align: center;
+}
+
+.seo-spoiler__link {
+   font-size: 12px;
+   line-height: 1;
+   color: $color_text_3;
+   display: inline-block;
+   padding-top: 20px;
+   position: relative;
+
+   &:before {
+      content: "";
+      position: absolute;
+      width: 32px;
+      height: 15px;
+      background: url(../images/info_block_arrow.svg) no-repeat center;
+      background-size: 32px auto;
+      top: 0;
+      left: 50%;
+      margin-left: -16px;
+   }
+
+   &:focus {
+      color: $color_text_3;
+      text-decoration: none;
+   }
+
+   &:hover {
+      color: $color_text_3;
+      text-decoration: none;
+   }
+
+   &.is-active {
+      &:before {
+         transform: rotate(-180deg);
+      }
+   }
+}
+
+@media (max-width: 1132px) {
+   .info-block__col {
+      padding-right: 10px;
+   }
+}
+
+@media (max-width: 738px) {
+   .info-block {
+      padding-bottom: 30px;
+      padding-top: 30px;
+
+      &:before {
+         bottom: 25px;
+      }
+   }
+
+   .info-block__col {
+      margin: 0 auto;
+      max-width: 100%;
+   }
+}

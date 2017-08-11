@@ -1,0 +1,40 @@
+{{#extend "main"}}
+   {{#content "body"}}
+      <!--404-->
+      <div class="inner">
+         <div class="page404__text">
+            Sorry, we couldn’t find that page.
+            <br>
+            You could also watch one of the videos below
+         </div>
+         <div class="section section--last scrollreveal scrollAnimateFade">
+            <div class="container">
+               <div class="section__inner">
+                  <div class="row row--flex">
+                     {{> video_preview_4col title=titles.title.[1] image="01" }}
+                     {{> video_preview_4col title=titles.title.[2] image="02" }}
+                     {{> video_preview_4col title=titles.title.[3] image="03" }}
+                     {{> video_preview_4col title=titles.title.[4] image="04" }}
+                     {{> video_preview_4col title=titles.title.[5] image="05" }}
+                     {{> video_preview_4col title=titles.title.[6] image="06" }}
+                     {{> video_preview_4col title=titles.title.[7] image="07" }}
+                     {{> video_preview_4col title=titles.title.[8] image="08" }}
+                     {{> video_preview_4col title=titles.title.[9] image="09" }}
+                     {{> video_preview_4col title=titles.title.[10] image="10" }}
+                     {{> video_preview_4col title=titles.title.[11] image="11" }}
+                     {{> video_preview_4col title=titles.title.[12] image="12" }}
+                     {{> video_preview_4col title=titles.title.[13] image="13" }}
+                     {{> video_preview_4col title=titles.title.[14] image="14" }}
+                     {{> video_preview_4col title=titles.title.[15] image="15" }}
+                     {{> video_preview_4col title=titles.title.[16] image="16" }}
+                  </div>
+                  <div class="page-controls">
+                     <a href="" class="show-more">Show more</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--/404-->
+   {{/content}}
+{{/extend}}

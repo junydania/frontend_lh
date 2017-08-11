@@ -1,0 +1,11 @@
+@mixin transition($animation) {
+
+   //transform: translate3d(0,0,0);
+
+   @if $animation == opacity {
+      transition: opacity 0.3s;
+   } @else if $animation == color {
+      transition: color 0.3s;
+   }
+
+}

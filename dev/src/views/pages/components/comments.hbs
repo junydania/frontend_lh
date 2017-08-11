@@ -1,0 +1,34 @@
+{{#extend "main"}}
+   {{#content "body"}}
+      <!--COMMENTS-->
+      <div class="inner scrollreveal scrollAnimateFade">
+         <div class="components">
+            <div class="component">
+               <div class="container">
+                  <div class="page__title">
+                     <h3>Comments default</h3>
+                     <p>Comments with entering an e-mail</p>
+                  </div>
+
+                  {{> comments--default }}
+
+               </div>
+            </div>
+            <div class="component">
+               <div class="container">
+                  <div class="page__title">
+                     <h3>Comments anonymous</h3>
+                     <p>
+                        Anonymous comments with spam protection reCAPTCHA by Google
+                     </p>
+                  </div>
+
+                  {{> comments--anonymous }}
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--/COMMENTS-->
+   {{/content}}
+{{/extend}}

@@ -1,0 +1,35 @@
+
+// VENDORS
+@import url(../vendors/slick-carousel/slick/slick-theme.css);
+@import url(../vendors/slick-carousel/slick/slick.css);
+@import 'bootstrap_custom';
+
+// ABSTRACTS
+
+@import 'animation';
+@import 'colors';
+@import 'mixins';
+@import 'typography';
+@import 'layout';
+@import 'utility';
+
+// BLOCKS
+@import 'buttons';
+@import 'form';
+@import 'lazyload';
+@import 'video_preview';
+@import 'banner';
+@import 'category-preview';
+
+// SECTIONS
+@import 'header';
+@import 'footer';
+@import 'hero-slider';
+@import 'sections';
+@import 'banners';
+@import 'info';
+@import 'comments';
+@import 'aside_categories-list';
+
+// PAGES
+@import 'pages/*';

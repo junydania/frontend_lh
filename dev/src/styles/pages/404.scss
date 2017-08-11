@@ -1,0 +1,27 @@
+/* ----------------------------------- **
+   #404
+** ----------------------------------- */
+
+.page404__text {
+   text-align: center;
+   padding-top: 42px;
+   padding-bottom: 45px;
+   font-size: 32px;
+   line-height: 1.375;
+   @include f-roboto_m;
+   margin: 0 auto;
+}
+
+@media (max-width: 738px) {
+   .page404__text {
+      font-size: 24px;
+   }
+}
+
+@media (max-width: 400px) {
+   .page404__text {
+      br {
+         display: none;
+      }
+   }
+}

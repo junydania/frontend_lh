@@ -1,0 +1,25 @@
+@mixin placeholder-color($color, $colorFocus) {
+   input::placeholder {
+      color: $color;
+   }
+   input:focus::placeholder {
+      color: $colorFocus;
+   }
+   textarea::placeholder {
+      color: $color;
+      &:focus {
+         color: $colorFocus;
+      }
+   }
+   textarea:focus::placeholder {
+      color: $colorFocus;
+   }
+}
+
+@mixin border-top {
+   border-top: 1px solid $color-border;
+}
+
+@mixin border-bottom {
+   border-bottom: 1px solid $color-border;
+}

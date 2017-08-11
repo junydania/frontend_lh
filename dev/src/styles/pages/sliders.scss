@@ -1,0 +1,42 @@
+/* ----------------------------------- **
+   #SLIDERS
+** ----------------------------------- */
+
+.component {
+   padding-bottom: 193px;
+}
+
+.component + .component {
+   padding-top: 0;
+   .page__title {
+      padding-top: 0;
+   }
+}
+
+.page__title {
+   padding-bottom: 24px;
+   padding-top: 96px;
+   h3 {
+      color: #bfbfbf;
+      @include f-roboto_r;
+   }
+
+   p {
+      font-size: 18px;
+      color: $color_text;
+   }
+}
+
+.hero-slider__button {
+   padding-top: 38px;
+}
+
+@media (max-width: 1132px) {
+   .component {
+      padding-bottom: 100px;
+   }
+
+   .page__title {
+      padding-top: 30px;
+   }
+}

@@ -1,0 +1,107 @@
+{{#extend "main"}}
+   {{#content "body"}}
+      <!--CATEGORY-->
+      <div class="inner">
+         <div class="section section--last category scrollreveal scrollAnimateFade">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-2 col-md-3 col-sm-4">
+                     {{> aside_categories-list }}
+                  </div>
+                  <div class="col-xxl-10 col-md-9 col-sm-8">
+                     <div class="section-heading">
+                        <h4>Most Popular Animation Videos</h4>
+                        <div class="section-heading__control dropdown">
+                           <a href="#" class="dropdown__toggle" data-toggle="dropdown">
+                              Most popular
+                              <span class="dropdown__arrow"></span>
+                           </a>
+                           <ul class="dropdown-menu">
+                              <li>
+                                 <a href="./categories.html" class="js-ajax-link">New</a>
+                              </li>
+                              <li>
+                                 <a href="./categories.html" class="js-ajax-link">Trending</a>
+                              </li>
+                              <li class="is-active">
+                                 <a href="./categories.html" class="js-ajax-link">Popular</a>
+                              </li>
+                              <li>
+                                 <a href="./categories.html" class="js-ajax-link">Most liked</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row five-columns row--flex">
+                        {{> video_preview_5col title=titles.title.[1] image="01" }}
+                        {{> video_preview_5col title=titles.title.[2] image="02" }}
+                        {{> video_preview_5col title=titles.title.[3] image="03" }}
+                        {{> video_preview_5col title=titles.title.[4] image="04" }}
+                        {{> video_preview_5col title=titles.title.[5] image="05" }}
+                        {{> video_preview_5col title=titles.title.[6] image="06" }}
+                        {{> video_preview_5col title=titles.title.[7] image="07" }}
+                        {{> video_preview_5col title=titles.title.[8] image="08" }}
+                        {{> video_preview_5col title=titles.title.[9] image="09" }}
+                        {{> video_preview_5col title=titles.title.[10] image="10" }}
+                        {{> video_preview_5col title=titles.title.[11] image="11" }}
+                        {{> video_preview_5col title=titles.title.[12] image="12" }}
+                        {{> video_preview_5col title=titles.title.[13] image="13" }}
+                        {{> video_preview_5col title=titles.title.[14] image="14" }}
+                        {{> video_preview_5col title=titles.title.[15] image="15" }}
+                        {{> video_preview_5col title=titles.title.[16] image="16" }}
+                        {{> video_preview_5col title=titles.title.[17] image="17" }}
+                        {{> video_preview_5col title=titles.title.[18] image="18" }}
+                        {{> video_preview_5col title=titles.title.[19] image="19" }}
+                        {{> video_preview_5col title=titles.title.[20] image="20" }}
+                        {{> video_preview_5col title=titles.title.[21] image="21" }}
+                        {{> video_preview_5col title=titles.title.[22] image="22" }}
+                        {{> video_preview_5col title=titles.title.[23] image="23" }}
+                        {{> video_preview_5col title=titles.title.[24] image="24" }}
+                        {{> video_preview_5col title=titles.title.[25] image="25" }}
+                        {{> video_preview_5col title=titles.title.[26] image="01" }}
+                        {{> video_preview_5col title=titles.title.[27] image="02" }}
+                        {{> video_preview_5col title=titles.title.[28] image="03" }}
+                        {{> video_preview_5col title=titles.title.[30] image="04" }}
+                        {{> video_preview_5col title=titles.title.[31] image="05" }}
+                        {{> video_preview_5col title=titles.title.[32] image="06" }}
+                        {{> video_preview_5col title=titles.title.[33] image="07" }}
+                        {{> video_preview_5col title=titles.title.[34] image="08" }}
+                        {{> video_preview_5col title=titles.title.[35] image="09" }}
+                        {{> video_preview_5col title=titles.title.[36] image="10" }}
+                        {{> video_preview_5col title=titles.title.[37] image="11" }}
+                        {{> video_preview_5col title=titles.title.[38] image="12" }}
+                        {{> video_preview_5col title=titles.title.[39] image="13" }}
+                        {{> video_preview_5col title=titles.title.[40] image="14" }}
+                        {{> video_preview_5col title=titles.title.[41] image="15" }}
+                        {{> video_preview_5col title=titles.title.[42] image="16" }}
+                        {{> video_preview_5col title=titles.title.[43] image="17" }}
+                        {{> video_preview_5col title=titles.title.[44] image="18" }}
+                        {{> video_preview_5col title=titles.title.[45] image="19" }}
+                        {{> video_preview_5col title=titles.title.[46] image="20" }}
+                        {{> video_preview_5col title=titles.title.[47] image="21" }}
+                        {{> video_preview_5col title=titles.title.[48] image="22" }}
+                        {{> video_preview_5col title=titles.title.[49] image="23" }}
+                        {{> video_preview_5col title=titles.title.[50] image="24" }}
+                        {{> video_preview_5col title=titles.title.[51] image="25" }}
+                        {{> video_preview_5col title=titles.title.[52] image="01" }}
+                        {{> video_preview_5col title=titles.title.[53] image="02" }}
+                        {{> video_preview_5col title=titles.title.[54] image="03" }}
+                        {{> video_preview_5col title=titles.title.[55] image="04" }}
+                        {{> video_preview_5col title=titles.title.[56] image="05" }}
+                        {{> video_preview_5col title=titles.title.[57] image="06" }}
+                        {{> video_preview_5col title=titles.title.[58] image="07" }}
+                        {{> video_preview_5col title=titles.title.[59] image="08" }}
+                        {{> video_preview_5col title=titles.title.[60] image="09" }}
+                        {{> video_preview_5col title=titles.title.[61] image="10" }}
+                     </div>
+                  </div>
+               </div>
+               {{> pagination }}
+            </div>
+         </div>
+         {{> banners }}
+         {{> info }}
+      </div>
+      <!--/CATEGORY-->
+   {{/content}}
+{{/extend}}

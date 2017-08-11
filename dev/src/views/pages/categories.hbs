@@ -1,0 +1,135 @@
+{{#extend "main"}}
+   {{#content "body"}}
+      <!--CATEGORIES-->
+      <div class="inner">
+
+         <div class="section popular scrollreveal scrollAnimateFade">
+            <div class="container">
+               <div class="section__inner">
+                  <div class="section-heading">
+                     <h4>Popular categories</h4>
+                  </div>
+                  <div class="row row--flex row--portrait">
+                     <div class="col-sm-3">
+                        {{> category-preview image="24" name=film_genres.genre.[0]}}
+                     </div>
+                     <div class="col-sm-3">
+                        {{> category-preview image="01" name=film_genres.genre.[7]}}
+                     </div>
+                     <div class="col-sm-3">
+                        {{> category-preview image="13" name=film_genres.genre.[23]}}
+                     </div>
+                     <div class="col-sm-3">
+                        {{> category-preview image="17" name=film_genres.genre.[18]}}
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section categories scrollreveal scrollAnimateFade">
+            <div class="container">
+               <div class="section-heading">
+                  <h4>Categories</h4>
+                  <div class="section-heading__control dropdown">
+                     <a href="#" class="dropdown__toggle" data-toggle="dropdown">
+                        Most popular <span class="dropdown__arrow"></span>
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="./category.html" class="js-ajax-link">New</a>
+                        </li>
+                        <li>
+                           <a href="./category.html" class="js-ajax-link">Trending</a>
+                        </li>
+                        <li class="is-active">
+                           <a href="./category.html" class="js-ajax-link">Popular</a>
+                        </li>
+                        <li>
+                           <a href="./category.html" class="js-ajax-link">Most liked</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xxl-2 col-md-3 col-sm-4">
+                     {{> aside_categories-list }}
+                  </div>
+                  <div class="col-xxl-10 col-md-9 col-sm-8">
+                     <div class="row five-columns five-columns--portrait row--flex">
+
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="01" name=film_genres.genre.[0]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="02" name=film_genres.genre.[1]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="03" name=film_genres.genre.[2]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="04" name=film_genres.genre.[3]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="05" name=film_genres.genre.[4]}}
+                        </div>
+
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="06" name=film_genres.genre.[5]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="07" name=film_genres.genre.[6]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="08" name=film_genres.genre.[7]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="09" name=film_genres.genre.[8]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="10" name=film_genres.genre.[9]}}
+                        </div>
+
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="11" name=film_genres.genre.[10]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="12" name=film_genres.genre.[11]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="13" name=film_genres.genre.[12]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="14" name=film_genres.genre.[13]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="15" name=film_genres.genre.[14]}}
+                        </div>
+
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="16" name=film_genres.genre.[15]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="17" name=film_genres.genre.[16]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="18" name=film_genres.genre.[17]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="19" name=film_genres.genre.[18]}}
+                        </div>
+                        <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
+                           {{> category-preview image="20" name=film_genres.genre.[19]}}
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         {{> banners }}
+         {{> info }}
+      </div>
+      <!--/CATEGORIES-->
+   {{/content}}
+{{/extend}}

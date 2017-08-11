@@ -1,0 +1,161 @@
+/* ----------------------------------- **
+   #LAYOUT
+** ----------------------------------- */
+
+
+// mobile first breakpoints
+
+@mixin breakpoint($point) {
+
+   @if $point == phone-v {
+      @media (min-width: 480px) {
+         @content;
+      }
+   } @else if $point == phone-h {
+      @media (min-width: 739px) {
+         @content;
+      }
+   } @else if $point == tablet-v {
+      @media (min-width: 875px) {
+         @content;
+      }
+   } @else if $point == tablet-h {
+      @media (min-width: 1133px) {
+         @content;
+      }
+   } @else if $point == desktop {
+      @media (min-width: 1561px) {
+         @content;
+      }
+   } @else if $point == desktop-l {
+      @media (min-width: 1825px) {
+         @content;
+      }
+   }
+
+   // range breakpoints
+
+   @if $point == phone-v__phone-h {
+      @media (min-width: 480px) and (max-width: 738px) {
+         @content;
+      }
+   } @else if $point == phone-h__tablet-v {
+      @media (min-width: 739px) and (max-width: 874px) {
+         @content;
+      }
+   } @else if $point == tablet-v__tablet-h {
+      @media (min-width: 875px) and (max-width: 1132px) {
+         @content;
+      }
+   } @else if $point == tablet-h__desktop {
+      @media (min-width: 1133px) and (max-width: 1560px) {
+         @content;
+      }
+   } @else if $point == desktop__desktop-l {
+      @media (min-width: 1561px) and (max-width: 1824px) {
+         @content;
+      }
+   }
+
+}
+
+html {
+   font-size: 16px;
+   min-height: 100%;
+   background: $color_black;
+}
+
+body {
+   background: $color_black;
+   font-size: 18px;
+   line-height: 1.444444444;
+   margin: 0 auto;
+   min-height: 100%;
+   min-width: 320px;
+   transition: all 0.3s;
+   overflow-y: scroll;
+}
+
+.page__layout {
+   height: 100%;
+   min-height: 100vh;
+   overflow: hidden;
+   margin: 0 auto;
+   position: relative;
+   z-index: 0;
+}
+
+.main {
+   flex: 1 0 auto;
+   padding-top: 95px;
+   background: $color_black;
+   position: relative;
+   font-size: 18px;
+
+   & > div,
+   & > section {
+      background: $color_black;
+   }
+
+   @media (max-width: 1132px) {
+      padding-top: 76px;
+   }
+
+   @media (max-width: 738px) {
+      padding-top: 76px;
+   }
+}
+
+.inner {
+   background: $color_black;
+   position: relative;
+   z-index: 1;
+   @include border-top;
+   padding-top: 20px;
+}
+
+.container {
+   width: 100%;
+   max-width: 1800px;
+   box-sizing: border-box;
+   padding-left: 25px;
+   padding-right: 25px;
+
+   @media (min-width: 875px) {
+      padding-left: 66px;
+      padding-right: 66px;
+   }
+
+   @media (min-width: 1561px) {
+      padding-left: 102px;
+      padding-right: 102px;
+   }
+}
+
+#content-ajax {
+   height: 100%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   transition: all 0.3s;
+
+   &.is-loading {
+      opacity: 0;
+   }
+}
+
+.is-desktop .scrollreveal {
+   visibility: hidden;
+}
+
+
+.column {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+@mixin col($col, $sum) {
+   width: percentage($col/$sum);
+   float: left;
+}
+

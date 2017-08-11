@@ -1,0 +1,135 @@
+/* ----------------------------------- **
+   #SEARCH RESULTS
+** ----------------------------------- */
+
+.search-results {
+   padding-top: 46px;
+}
+
+.search-results__header {
+   @include border-bottom;
+   margin-bottom: 36px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-end;
+   justify-content: space-between;
+   padding-top: 8px;
+}
+
+.search--visible {
+   position: relative;
+   display: block;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin-bottom: 40px;
+}
+
+.search-results__links {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   @include clearfix;
+
+   li {
+      float: left;
+      margin-right: 28px;
+      position: relative;
+   }
+}
+
+.search-results__link {
+   font-size: 22px;
+   color: $color_text_2;
+   display: block;
+
+   span {
+      display: inline-block;
+      position: relative;
+      padding-bottom: 16px;
+
+      &:before {
+         content: "";
+         position: absolute;
+         height: 1px;
+         background: #fff;
+         transition: all 0.3s;
+         bottom: -1px;
+         left: 0;
+         right: -1px;
+         opacity: 0;
+      }
+   }
+
+   sup {
+      @include f-roboto_m;
+      font-size: 12px;
+      position: relative;
+      top: -18px;
+      margin-left: 1px;
+   }
+
+   &:focus {
+      color: $color_text_2;
+      text-decoration: none;
+   }
+
+   &:hover {
+      text-decoration: none;
+      color: $color_white;
+   }
+
+   &.is-active {
+      color: $color_white;
+
+      span {
+         &:before {
+            opacity: 1;
+         }
+      }
+   }
+
+   &--no-results {
+      opacity: .4;
+
+      &:hover {
+         color: $color_text_2;
+      }
+
+      span {
+         &:before {
+            background: #888;
+         }
+      }
+
+      &.is-active {
+         color: $color_text_2;
+         opacity: .4;
+      }
+   }
+}
+
+.search-results__count {
+   color: $color_text;
+   font-size: 18px;
+   padding-bottom: 18px;
+}
+
+@media (max-width: 600px) {
+   .search-results__count {
+      display: none;
+   }
+}
+
+@media (max-width: 400px) {
+   .search-results__link {
+      font-size: 18px;
+   }
+
+   .search-results__links {
+      li {
+         margin-right: 15px;
+      }
+   }
+}

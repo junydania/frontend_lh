@@ -1,0 +1,113 @@
+/* ----------------------------------- **
+   #TYPOGRAPHY
+** ----------------------------------- */
+
+@font-face {
+   font-family: 'robotoitalic';
+   src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+   url('../fonts/roboto-italic-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'robotomedium'; //font-weight: 500
+   src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+   url('../fonts/roboto-medium-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'robotomedium_italic';
+   src: url('../fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
+   url('../fonts/roboto-mediumitalic-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'robotoregular';
+   src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+   url('../fonts/roboto-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@mixin f-roboto_r {
+   font-family: 'robotoregular';
+   font-weight: normal;
+}
+
+@mixin f-roboto_r_i {
+   font-family: 'robotoitalic';
+   font-weight: normal;
+}
+
+@mixin f-roboto_m {
+   font-family: 'robotomedium';
+   font-weight: normal;
+}
+
+@mixin f-roboto_m_i {
+   font-family: 'robotomedium_italic';
+   font-weight: normal;
+}
+
+body {
+   -webkit-text-size-adjust: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   @include f-roboto_r;
+   color: $color_white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   @include f-roboto_m;
+   margin-top: 18px;
+}
+
+h1 {
+   font-size: 48px;
+}
+
+h2 {
+   font-size: 40px;
+}
+
+h3 {
+   font-size: 32px;
+   margin-bottom: 16px;
+}
+
+h4 {
+   font-size: 22px;
+   margin-bottom: 14px;
+}
+
+h5 {
+   font-size: 18px;
+}
+
+h6 {
+   font-size: 14px;
+}
+
+p {
+   margin: 0;
+   margin-bottom: 18px;
+}
+
+a {
+   transition: all 0.3s;
+
+   &:focus {
+      outline: none;
+   }
+
+   &:focus:active {
+      outline: none;
+   }
+
+}

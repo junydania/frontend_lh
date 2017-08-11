@@ -1478,7 +1478,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: black;
 }
 
 h1 small,
@@ -8662,7 +8662,7 @@ textarea.form__field {
 .video-preview--md .photo-link__descr,
 .photo-link--md .video-preview__descr,
 .photo-link--md .photo-link__descr {
-  font-size: 18px;
+  font-size: 13px;
   line-height: 1.444444444;
 }
 
@@ -8682,7 +8682,7 @@ textarea.form__field {
 .video-preview--sm .photo-link__descr,
 .photo-link--sm .video-preview__descr,
 .photo-link--sm .photo-link__descr {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
@@ -8722,7 +8722,25 @@ textarea.form__field {
 
 .video-preview__descr,
 .photo-link__descr {
-  font-size: 20px;
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 0;
+  font-family: 'robotoregular';
+  font-weight: normal;
+  padding-left: 1px;
+}
+
+.video-preview__comedianName {
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 0;
+  font-family: 'robotoregular';
+  font-weight: bold;
+  padding-left: 1px;
+}
+
+.video-preview__views {
+  font-size: 11px;
   line-height: 1.65;
   margin: 0;
   font-family: 'robotoregular';
@@ -10631,7 +10649,7 @@ textarea.form__field {
   margin-right: 20px;
   font-size: 32px;
   line-height: 1.34375;
-  color: #bfbfbf;
+  color: black;
   font-family: 'robotoregular';
   font-weight: normal;
 }
@@ -12627,7 +12645,7 @@ textarea.form__field {
     margin-bottom: 12px;
   }
   .aside-item .video-preview .video-preview__descr {
-    font-size: 14px;
+    font-size: 10px;
   }
   .aside-item .show-more {
     font-size: 18px;

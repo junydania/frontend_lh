@@ -8977,8 +8977,8 @@ textarea.form__field {
 *                     header                     *
 *************************************************/
 .header {
-  padding: 23px 0;
-  padding-bottom: 22px;
+  padding: 15px 0;
+  padding-bottom: 15px;
   position: fixed;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
@@ -9014,9 +9014,14 @@ textarea.form__field {
 .logo {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 45px;
+  margin-right: 35px;
   -webkit-transition: all 0s;
   transition: all 0s;
+}
+
+
+.second-logo {
+  padding-right: 2px;
 }
 
 .logo img {
@@ -9074,19 +9079,19 @@ textarea.form__field {
 
 .header__nav-link {
   display: block;
-  color: #888888;
+  color: #a25033;
   padding: 16px 20.2px;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 
 .header__nav-link:focus {
-  color: #888888;
+  color: #a25033;
   text-decoration: none;
 }
 
 .header__nav-link:hover {
-  color: #fff;
+  color: darkred;
   text-decoration: none;
 }
 
@@ -9348,7 +9353,7 @@ textarea.form__field {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(../images/search_icon.svg) no-repeat center;
+  background: url(../images/search-icon.png) no-repeat center;
   background-size: 18px auto;
   left: 0;
   top: 0;
@@ -9693,7 +9698,7 @@ textarea.form__field {
 
 @media (max-width: 1132px) {
   .header {
-    padding: 22px 0;
+    padding: 20px 0;
   }
   .header__right {
     display: none;
@@ -9702,7 +9707,7 @@ textarea.form__field {
     display: none;
   }
   .logo {
-    width: 68px;
+    width: 200px;
   }
   .header__nav {
     display: block;

@@ -12426,7 +12426,7 @@ textarea.form__field {
 
 .video-info__descr {
   clear: both;
-  color: #686868;
+  color: white;
   padding-top: 49px;
   font-size: 16px;
   line-height: 1.5;
@@ -12439,6 +12439,7 @@ textarea.form__field {
   font-weight: normal;
   margin: 0;
   margin-bottom: 29px;
+  color: white;
 }
 
 .rate-video {

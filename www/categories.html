@@ -1,366 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title> CuteTube — Modern Video Theme </title>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--FAVICON-->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="favicons/manifest.json">
-    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#ff0000">
-    <meta name="theme-color" content="#ffffff">
-    <!--/FAVICON-->
-    <!--CSS CRITICAL-->
-    <style>
-      html {
-        background: #000;
-      }
+<head>
+  <meta charset="utf-8">
+  <title>LaffHub</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--FAVICON-->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/icon.png">
+  <link rel="icon" type="image/png" href="favicons/icon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicons/icon.png" sizes="16x16">
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#ff0000">
+  <meta name="theme-color" content="#ffffff">
+  <!--/FAVICON-->
+  <!--CSS CRITICAL-->
+  <style>
+    html {
+      background: #000;
+    }
 
-      body {
-        background: #000;
-        opacity: 0;
-      }
-    </style>
-    <!--/CSS CRITICAL-->
-    <!--CSS MAIN-->
-    <link rel="stylesheet" href="css/main.css">
-    <!--/CSS MAIN-->
-  </head>
-  <body class="page">
-    <div class="page__layout">
-      <div class="overlay"></div>
-      <!--HEADER-->
-      <header class="page__header header ">
-        <div class="container">
-          <div class="header__left">
-            <a href="./index.html" class="logo js-ajax-link">
-              <img src="images/logo.svg" alt=""> </a>
-            <nav class="header__nav">
-              <ul class="header__nav-list">
-                <li class="header__nav-item header__nav-item--dropdown">
-                  <a href="./index.html" class="header__nav-link js-ajax-link mobile-ajax-off"> Home </a>
-                  <div class="header__nav-dropdown">
-                    <ul>
-                      <li>
-                        <a href="./index.html" class="js-ajax-link"> Slider & mixed layout </a>
-                      </li>
-                      <li>
-                        <a href="./index_2_columns.html" class="js-ajax-link"> Slider & 2 columns </a>
-                      </li>
-                      <li>
-                        <a href="./index_4_columns.html" class="js-ajax-link"> 4 columns </a>
-                      </li>
-                      <li>
-                        <a href="./index_6_columns.html" class="js-ajax-link"> 6 columns </a>
-                      </li>
-                      <li>
-                        <a href="./index_3_6_columns.html" class="js-ajax-link"> 3 & 6 columns </a>
-                      </li>
-                      <li>
-                        <a href="./index_5_columns_left_sidebar.html" class="js-ajax-link"> 5 columns & left sidebar </a>
-                      </li>
-                      <li>
-                        <a href="./index_5_columns_right_sidebar.html" class="js-ajax-link"> 5 columns & right sidebar </a>
-                      </li>
-                      <li>
-                        <a href="./index_3_columns_left_sidebar.html" class="js-ajax-link"> 3 columns & left sidebar </a>
-                      </li>
-                      <li>
-                        <a href="./index_3_columns_right_sidebar.html" class="js-ajax-link"> 3 columns & right sidebar </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__nav-item header__nav-item--dropdown">
-                  <a href="./categories.html" class="header__nav-link js-ajax-link mobile-ajax-off"> Categories </a>
-                  <div class="header__nav-dropdown header__nav-dropdown--categories">
-                    <ul>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Action </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Adventure </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Animation </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Biography </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Comedy </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Crime </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Documentary </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Drama </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Family </a>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Fantasy </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Film-Noir </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> History </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Horror </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Music </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Musical </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Mystery </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Romance </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Sci-Fi </a>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Sci-Fi </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Sport </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Game-Show </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> History </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Horror </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Musical </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Mystery </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Romance </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> News </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__nav-item">
-                  <a href="./info.html" class="header__nav-link js-ajax-link"> Info </a>
-                </li>
-                <li class="header__nav-item">
-                  <a href="./credits.html" class="header__nav-link js-ajax-link"> Credits </a>
-                </li>
-                <li class="header__nav-item header__nav-item--dropdown">
-                  <a href="./index.html" class="header__nav-link mobile-ajax-off js-ajax-link"> Pages </a>
-                  <div class="header__nav-dropdown">
-                    <ul>
-                      <li class="header__nav-sub-dropdown">
-                        <a href="./index.html" class="mobile-ajax-off js-ajax-link"> Home </a>
-                        <ul>
-                          <li>
-                            <a href="./index.html" class="js-ajax-link"> Slider & mixed layout </a>
-                          </li>
-                          <li>
-                            <a href="./index_2_columns.html" class="js-ajax-link"> Slider & 2 columns </a>
-                          </li>
-                          <li>
-                            <a href="./index_4_columns.html" class="js-ajax-link"> 4 columns </a>
-                          </li>
-                          <li>
-                            <a href="./index_6_columns.html" class="js-ajax-link"> 6 columns </a>
-                          </li>
-                          <li>
-                            <a href="./index_3_6_columns.html" class="js-ajax-link"> 3 & 6 columns </a>
-                          </li>
-                          <li>
-                            <a href="./index_5_columns_left_sidebar.html" class="js-ajax-link"> 5 columns & left sidebar </a>
-                          </li>
-                          <li>
-                            <a href="./index_5_columns_right_sidebar.html" class="js-ajax-link"> 5 columns & right sidebar </a>
-                          </li>
-                          <li>
-                            <a href="./index_3_columns_left_sidebar.html" class="js-ajax-link"> 3 columns & left sidebar </a>
-                          </li>
-                          <li>
-                            <a href="./index_3_columns_right_sidebar.html" class="js-ajax-link"> 3 columns & right sidebar </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="./video.html" class="js-ajax-link"> Video </a>
-                      </li>
-                      <li>
-                        <a href="./categories.html" class="js-ajax-link"> Categories </a>
-                      </li>
-                      <li>
-                        <a href="./category.html" class="js-ajax-link"> Category </a>
-                      </li>
-                      <li>
-                        <a href="./info.html" class="js-ajax-link"> Info </a>
-                      </li>
-                      <li>
-                        <a href="./search-results.html" class="js-ajax-link"> Search results </a>
-                      </li>
-                      <li>
-                        <a href="./actors.html" class="js-ajax-link"> Actors </a>
-                      </li>
-                      <li>
-                        <a href="./actor-profile.html" class="js-ajax-link"> Actor Profile </a>
-                      </li>
-                      <li>
-                        <a href="./404.html" class="js-ajax-link"> 404 </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__nav-item header__nav-item--dropdown">
-                  <a href="./sliders.html" class="header__nav-link mobile-ajax-off js-ajax-link"> Components </a>
-                  <div class="header__nav-dropdown">
-                    <ul>
-                      <li class="header__nav-sub-dropdown">
-                        <a href="./sliders.html" class="mobile-ajax-off js-ajax-link"> Slider </a>
-                        <ul>
-                          <li>
-                            <a href="./slider1.html" class="js-ajax-link">Slider№1</a>
-                          </li>
-                          <li>
-                            <a href="./slider2.html" class="js-ajax-link">Slider№2</a>
-                          </li>
-                          <li>
-                            <a href="./slider3.html" class="js-ajax-link">Slider№3</a>
-                          </li>
-                          <li>
-                            <a href="./slider4.html" class="js-ajax-link">Slider№4</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="header__nav-sub-dropdown">
-                        <a href="./comments.html" class="mobile-ajax-off js-ajax-link"> Comments </a>
-                        <ul>
-                          <li>
-                            <a href="./comments_default.html" class="js-ajax-link">Comments default</a>
-                          </li>
-                          <li>
-                            <a href="./comments_anonymous.html" class="js-ajax-link">Comments anonymous</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="header__right">
-            <div class="dropdown lng-dropdown">
-              <a href="#" class="dropdown__toggle" data-toggle="dropdown">
-                <span class="lng-dropdown__icon">
-                  <img src="images/cz_icon.svg" alt="">
-                </span>
-                <span>CZ</span>
+    body {
+      background: #000;
+      opacity: 0;
+    }
+  </style>
+  <!--/CSS CRITICAL-->
+  <!--CSS MAIN-->
+  <link rel="stylesheet" href="css/main.css">
+  <!--/CSS MAIN-->
+</head>
+<body class="page">
+<div class="page__layout">
+  <div class="overlay"></div>
+  <!--HEADER-->
+  <header class="page__header header ">
+    <div class="container">
+      <div class="header__left">
+        <a href="./index.html" class="second-logo">
+          <img src="images/logo.png" alt="">
+        </a>
+        <a href="./index.html" class="logo js-ajax-link">
+          <img src="images/logo.png" alt="">
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item header__nav-item--dropdown">
+              <a href="./index.html" class="header__nav-link js-ajax-link mobile-ajax-off"> Home </a>
+            </li>
+            <li class="header__nav-item header__nav-item--dropdown">
+              <a href="./categories.html" class="header__nav-link js-ajax-link mobile-ajax-off"> Categories </a>
+              <div class="header__nav-dropdown header__nav-dropdown--categories">
+                <ul>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Action </a>
+                  </li>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Adventure </a>
+                  </li>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Animation </a>
+                  </li>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Biography </a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Fantasy </a>
+                  </li>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Film-Noir </a>
+                  </li>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> History </a>
+                  </li>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Horror </a>
+                  </li>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Music </a>
+                  </li>
+                  <li>
+                    <a href="./categories.html" class="js-ajax-link"> Musical </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="header__nav-item">
+              <a href="./info.html" class="header__nav-link js-ajax-link"> Comedians </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="./credits.html" class="header__nav-link js-ajax-link"> Events</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__right">
+        <div class="dropdown lng-dropdown">
+          <a href="#" class="dropdown__toggle" data-toggle="dropdown">
+            <span>My Account</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">
+                <span>Profile</span>
               </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="#">
-                    <span class="lng-dropdown__icon">
-                      <img src="images/gb_icon.svg" alt="">
-                    </span>
-                    <span>GB</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="lng-dropdown__icon">
-                      <img src="images/ru_icon.svg" alt="">
-                    </span>
-                    <span>RU</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="lng-dropdown__icon">
-                      <img src="images/nl_icon.svg" alt="">
-                    </span>
-                    <span>NL</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="lng-dropdown__icon">
-                      <img src="images/de_icon.svg" alt="">
-                    </span>
-                    <span>DE</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <a href="#" class="search-open"></a>
-            <a href="#" class="search-close"></a>
-          </div>
-          <!-- search form -->
-          <form action="#" method="post" class="search">
-            <input type="text" name="search" class="search__field" placeholder="Search cutetube.com" autocomplete="off">
-            <button class="search__button" type="submit"></button>
-            <div class="search__enter"> Enter </div>
-            <div class="search__quick-links">
-              <h6>Quick Links</h6>
-              <ul>
-                <li>
-                  <a href="#">Unlocking The Bible Codes</a>
-                </li>
-                <li>
-                  <a href="#">Mel Gibson movies</a>
-                </li>
-                <li>
-                  <a href="#">The Emerald Buddha</a>
-                </li>
-                <li>
-                  <a href="#">A Brief History Of Creation</a>
-                </li>
-              </ul>
-            </div>
-          </form>
-          <!-- /search form -->
-          <a href="#" class="menu-open">
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
-          <a href="#" class="menu-close">
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Sign Out</span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="mobile-menu">
-          <div class="mobile-menu__scroll-content"> </div>
-        </div>
-      </header>
-      <!--/HEADER-->
+        <a href="#" class="search-open"></a>
+        <a href="#" class="search-close"></a>
+      </div>
+      <!-- search form -->
+      <form action="#" method="post" class="search">
+        <input type="text" name="search" class="search__field" placeholder="Search Laffhub" autocomplete="off">
+        <button class="search__button" type="submit"></button>
+        <div class="search__enter"> Enter </div>
+      </form>
+      <!-- /search form -->
+      <a href="#" class="menu-open">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <a href="#" class="menu-close">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+    <div class="mobile-menu">
+      <div class="mobile-menu__scroll-content"> </div>
+    </div>
+  </header>
+  <!--/HEADER-->
       <div id="content-ajax">
         <!--MAIN-->
         <main class="page__main main">
@@ -377,44 +157,32 @@
                       <a href="./category.html" class="category-preview js-ajax-link">
                         <div class="category-preview__image">
                           <span class="lazy-bg-img" data-original="images/photo_24.jpg"></span>
-                          <div class="category-preview__info">
-                            <div class="category-preview__count"> 10268 </div>
-                          </div>
                         </div>
-                        <div class="category-preview__name"> Action </div>
+                        <div class="category-preview__name"> Stand Up </div>
                       </a>
                     </div>
                     <div class="col-sm-3">
                       <a href="./category.html" class="category-preview js-ajax-link">
                         <div class="category-preview__image">
                           <span class="lazy-bg-img" data-original="images/photo_01.jpg"></span>
-                          <div class="category-preview__info">
-                            <div class="category-preview__count"> 10268 </div>
-                          </div>
                         </div>
-                        <div class="category-preview__name"> Drama </div>
+                        <div class="category-preview__name"> Sitcom</div>
                       </a>
                     </div>
                     <div class="col-sm-3">
                       <a href="./category.html" class="category-preview js-ajax-link">
                         <div class="category-preview__image">
                           <span class="lazy-bg-img" data-original="images/photo_13.jpg"></span>
-                          <div class="category-preview__info">
-                            <div class="category-preview__count"> 10268 </div>
-                          </div>
                         </div>
-                        <div class="category-preview__name"> Thriller </div>
+                        <div class="category-preview__name"> Arewa </div>
                       </a>
                     </div>
                     <div class="col-sm-3">
                       <a href="./category.html" class="category-preview js-ajax-link">
                         <div class="category-preview__image">
                           <span class="lazy-bg-img" data-original="images/photo_17.jpg"></span>
-                          <div class="category-preview__info">
-                            <div class="category-preview__count"> 10268 </div>
-                          </div>
                         </div>
-                        <div class="category-preview__name"> Romance </div>
+                        <div class="category-preview__name"> Comic </div>
                       </a>
                     </div>
                   </div>
@@ -450,21 +218,15 @@
                     <div class="aside_categories-list">
                       <a href="#" class="aside_categories-list__toggle btn"> Show categories </a>
                       <div class="aside_categories-list__collapse">
-                        <div class="aside_categories-list__heading"> Category name </div>
+                        <div class="aside_categories-list__heading"> Categories </div>
                         <ul class="categories-menu">
                           <li>
-                            <a href="./categories.html" class="is-active">
-                              <span>All</span>
-                              <span class="categories-menu__badge">15682</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Action
+                            <a href="./categories.html" class="js-ajax-link"> Comedy Skits
                               <span class="categories-menu__badge">326</span>
                             </a>
                           </li>
                           <li>
-                            <a href="./categories.html" class="js-ajax-link"> Adventure
+                            <a href="./categories.html" class="js-ajax-link"> Stand Up
                               <span class="categories-menu__badge">828</span>
                             </a>
                           </li>
@@ -474,118 +236,18 @@
                             </a>
                           </li>
                           <li>
-                            <a href="./categories.html" class="js-ajax-link"> Biography
+                            <a href="./categories.html" class="js-ajax-link"> Arewa
                               <span class="categories-menu__badge">518</span>
                             </a>
                           </li>
                           <li>
-                            <a href="./categories.html" class="js-ajax-link"> Comedy
+                            <a href="./categories.html" class="js-ajax-link"> Arewa
                               <span class="categories-menu__badge">963</span>
                             </a>
                           </li>
                           <li>
-                            <a href="./categories.html" class="js-ajax-link"> Crime
+                            <a href="./categories.html" class="js-ajax-link"> Arewa
                               <span class="categories-menu__badge">613</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Documentary
-                              <span class="categories-menu__badge">384</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Drama
-                              <span class="categories-menu__badge">186</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Family
-                              <span class="categories-menu__badge">329</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Fantasy
-                              <span class="categories-menu__badge">704</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Game-Show
-                              <span class="categories-menu__badge">143</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> History
-                              <span class="categories-menu__badge">785</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Horror
-                              <span class="categories-menu__badge">835</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Music
-                              <span class="categories-menu__badge">602</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Musician
-                              <span class="categories-menu__badge">375</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Mystery
-                              <span class="categories-menu__badge">709</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> News
-                              <span class="categories-menu__badge">540</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Reality-TV
-                              <span class="categories-menu__badge">885</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Romance
-                              <span class="categories-menu__badge">976</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Sci-Fi
-                              <span class="categories-menu__badge">980</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Sitcom
-                              <span class="categories-menu__badge">760</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Sport
-                              <span class="categories-menu__badge">929</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Talk-Show
-                              <span class="categories-menu__badge">555</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Thriller
-                              <span class="categories-menu__badge">792</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> War
-                              <span class="categories-menu__badge">502</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="./categories.html" class="js-ajax-link"> Western
-                              <span class="categories-menu__badge">460</span>
                             </a>
                           </li>
                         </ul>
@@ -602,7 +264,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Action </div>
+                          <div class="category-preview__name"> Arewa </div>
                         </a>
                       </div>
                       <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
@@ -613,7 +275,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Adventure </div>
+                          <div class="category-preview__name"> Arewa </div>
                         </a>
                       </div>
                       <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
@@ -624,7 +286,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Animation </div>
+                          <div class="category-preview__name"> Comedy Skits </div>
                         </a>
                       </div>
                       <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
@@ -635,7 +297,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Biography </div>
+                          <div class="category-preview__name"> Stand Up </div>
                         </a>
                       </div>
                       <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
@@ -657,7 +319,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Crime </div>
+                          <div class="category-preview__name"> Stand Up </div>
                         </a>
                       </div>
                       <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
@@ -668,7 +330,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Documentary </div>
+                          <div class="category-preview__name"> Stand Up </div>
                         </a>
                       </div>
                       <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
@@ -679,7 +341,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Drama </div>
+                          <div class="category-preview__name"> Animations </div>
                         </a>
                       </div>
                       <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
@@ -690,7 +352,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Family </div>
+                          <div class="category-preview__name"> Arewa </div>
                         </a>
                       </div>
                       <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
@@ -701,117 +363,7 @@
                               <div class="category-preview__count"> 10268 </div>
                             </div>
                           </div>
-                          <div class="category-preview__name"> Fantasy </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_11.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> Game-Show </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_12.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> History </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_13.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> Horror </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_14.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> Music </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_15.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> Musician </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_16.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> Mystery </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_17.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> News </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_18.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> Reality-TV </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_19.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> Romance </div>
-                        </a>
-                      </div>
-                      <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
-                        <a href="./category.html" class="category-preview js-ajax-link">
-                          <div class="category-preview__image">
-                            <span class="lazy-bg-img" data-original="images/photo_20.jpg"></span>
-                            <div class="category-preview__info">
-                              <div class="category-preview__count"> 10268 </div>
-                            </div>
-                          </div>
-                          <div class="category-preview__name"> Sci-Fi </div>
+                          <div class="category-preview__name"> Arewa </div>
                         </a>
                       </div>
                     </div>
@@ -859,47 +411,7 @@
               </div>
             </div>
             <!--/BANNERS-->
-            <!--info-block-->
-            <div class="section info-block scrollreveal scrollAnimateFade">
-              <div class="container">
-                <h3>The Electric Ant is a science fiction short story by Philip K.</h3>
-                <div class="row">
-                  <div class="col-lg-4 col-sm-6">
-                    <div class="info-block__col">
-                      <p> Garson Poole wakes up after a flying-car-crash to find that he is missing a hand. He then finds out that he is an 'electric ant' – an "organic" robot. He further finds out that what he believes is his subjective reality is being
-                        fed to him from a micro-punched tape in his chest cavity. He experiments on this tape by adding new holes, which adds things to his reality. </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-sm-6">
-                    <div class="info-block__col">
-                      <p> Convinced that his entire reality is constrained by the tape, he makes a major change to it, with a major effect on his reality. The change affects everyone else he interacts with, which raises the question of whether any of them
-                        – or he himself – are "real" at all. </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 hidden-md hidden-sm hidden-xs">
-                    <div class="info-block__col">
-                      <p> Convinced that his entire reality is constrained by the tape, he makes a major change to it, with a major effect on his reality. The change affects everyone else he interacts with, which raises the question of whether any of them
-                        – or he himself – are "real" at all. </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="seo-spoiler">
-                  <div class="seo-spoiler__wrap">
-                    <div class="seo-spoiler__text">
-                      <p> Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the
-                        sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. Looking down into the dark gulf below, I could see a ruddy light streaming through
-                        a rift in the clouds. </p>
-                      <p> Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the
-                        sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. Looking down into the dark gulf below, I could see a ruddy light streaming through
-                        a rift in the clouds. </p>
-                    </div>
-                  </div>
-                  <div class="seo-spoiler__link-center">
-                    <a href="#" class="seo-spoiler__link">Show more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
           <!--/CATEGORIES-->
         </main>
@@ -919,9 +431,6 @@
                       <li>
                         <a href="./info.html" class="js-ajax-link">Privacy</a>
                       </li>
-                      <li>
-                        <a href="./info.html" class="js-ajax-link">DMCA</a>
-                      </li>
                     </ul>
                   </div>
                   <div class="column">
@@ -933,9 +442,6 @@
                       <li>
                         <a href="./info.html" class="js-ajax-link">Support</a>
                       </li>
-                      <li>
-                        <a href="./info.html" class="js-ajax-link">Billing</a>
-                      </li>
                     </ul>
                   </div>
                   <div class="column">
@@ -945,30 +451,9 @@
                         <a href="./info.html" class="js-ajax-link">Contact Us</a>
                       </li>
                       <li>
-                        <a href="./info.html" class="js-ajax-link">Feedback</a>
-                      </li>
-                      <li>
                         <a href="./info.html" class="js-ajax-link">Blog</a>
                       </li>
                     </ul>
-                  </div>
-                  <div class="column">
-                    <div class="footer__top-heading"> Work with us </div>
-                    <ul class="footer__top-list">
-                      <li>
-                        <a href="./info.html" class="js-ajax-link">Content program</a>
-                      </li>
-                      <li>
-                        <a href="./info.html" class="js-ajax-link">Webmasters</a>
-                      </li>
-                      <li>
-                        <a href="./info.html" class="js-ajax-link">Advertisers</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="column footer__top-age-limit">
-                    <img src="./images/18plus.svg" alt="18 plus">
-                    <p>Convinced that his entire reality is constrained by the tape, he makes a major change to it, with a major effect on his reality. </p>
                   </div>
                 </div>
               </div>
@@ -978,28 +463,9 @@
                 <div class="row">
                   <div class="column">
                     <a href="#" class="footer__social-item">
-                      <img src="./images/reddit_logo.svg" alt="reddit">
+                      <img src="./images/facebook.png" alt="facebook">
                       <div class="footer__social-info">
-                        <div class="footer__social-subscribers"> 12 622 </div>
-                        <div class="footer__social-username"> @cutetube </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="column">
-                    <a href="#" class="footer__social-item">
-                      <img src="./images/tumblr_logo.svg" alt="tumblr">
-                      <div class="footer__social-info">
-                        <div class="footer__social-subscribers"> 27 332 </div>
-                        <div class="footer__social-username"> @cutetube </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="column">
-                    <a href="#" class="footer__social-item">
-                      <img src="./images/googleplus_logo.svg" alt="googleplus">
-                      <div class="footer__social-info">
-                        <div class="footer__social-subscribers"> 31 478 </div>
-                        <div class="footer__social-username"> @cutetube </div>
+                        <div class="footer__social-username"> @laffhub </div>
                       </div>
                     </a>
                   </div>
@@ -1007,26 +473,15 @@
                     <a href="#" class="footer__social-item">
                       <img src="./images/twitter_logo.svg" alt="twitter">
                       <div class="footer__social-info">
-                        <div class="footer__social-subscribers"> 14 983 </div>
-                        <div class="footer__social-username"> @cutetube </div>
+                        <div class="footer__social-username"> @laffhub </div>
                       </div>
                     </a>
                   </div>
                   <div class="column">
                     <a href="#" class="footer__social-item">
-                      <img src="./images/blogger_logo.svg" alt="blogger">
+                      <img src="./images/instagram.png" alt="twitter">
                       <div class="footer__social-info">
-                        <div class="footer__social-subscribers"> 94 029 </div>
-                        <div class="footer__social-username"> @cutetube </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="column">
-                    <a href="#" class="footer__social-item">
-                      <img src="./images/rss_logo.svg" alt="rss">
-                      <div class="footer__social-info">
-                        <div class="footer__social-subscribers"> 22 698 </div>
-                        <div class="footer__social-username"> @cutetube </div>
+                        <div class="footer__social-username"> @laffhub</div>
                       </div>
                     </a>
                   </div>
@@ -1037,12 +492,7 @@
               <div class="container">
                 <div class="row">
                   <div class="column">
-                    <span class="footer__bottom-copyright"> © Сute Tube &nbsp;—&nbsp; Modern Video Theme &nbsp;|&nbsp; 2017 </span>
-                  </div>
-                  <div class="column footer__bottom-created-by">
-                    <span>Created by</span>
-                    <a href="https://themeforest.net/user/divothemes" target="_blank">
-                      <img src="images/divo_theme_logo.svg" alt=""> </a>
+                    <span class="footer__bottom-copyright"> © LaffHub&nbsp;|&nbsp; 2017 </span>
                   </div>
                 </div>
               </div>

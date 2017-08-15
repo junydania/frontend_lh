@@ -9707,7 +9707,11 @@ textarea.form__field {
     display: none;
   }
   .logo {
-    width: 200px;
+    width: 100px;
+  }
+
+  .operator-logo {
+    margin-left: -40px;
   }
   .header__nav {
     display: block;
@@ -10479,6 +10483,11 @@ textarea.form__field {
   .hero-slider__banner {
     width: 350px;
   }
+
+  .operator-logo {
+    margin-left: -60px;
+  }
+
 }
 
 @media (max-width: 1560px) {
@@ -10581,11 +10590,19 @@ textarea.form__field {
   .hero-slider__slide {
     padding-bottom: 115px;
     padding-top: 71px;
+    height: 200px;
+    width: 100%;
   }
+
   .hero-slider__slide-left {
     min-height: 300px;
     padding-bottom: 57px;
   }
+
+  .hero-slider__button {
+    display: none;
+  }
+
   .hero-slider__slide-name {
     max-width: 21em;
   }
@@ -11673,10 +11690,10 @@ textarea.form__field {
 
 @media (min-width: 400px) and (max-width: 738px) {
   .row--portrait .col-sm-3 {
-    width: 50%;
+    width: 40%;
   }
   .five-columns--portrait .col-sm-6 {
-    width: 50%;
+    width: 40%;
     float: left;
   }
 }

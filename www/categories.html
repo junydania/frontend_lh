@@ -35,111 +35,99 @@
 <div class="page__layout">
   <div class="overlay"></div>
   <!--HEADER-->
-  <header class="page__header header ">
-    <div class="container">
-      <div class="header__left">
-        <a href="./index.html" class="logo js-ajax-link">
-          <img src="images/logo.png" alt="">
-        </a>
-        <a href="./index.html" class="logo js-ajax-link operator-logo">
-          <img src="images/logo.png" alt="">
-        </a>
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li class="header__nav-item">
-              <a href="./index.html" class="header__nav-link js-ajax-link"> Home</a>
-            </li>
-            <li class="header__nav-item header__nav-item--dropdown">
-              <a href="./categories.html" class="header__nav-link js-ajax-link mobile-ajax-off"> Categories </a>
-              <div class="header__nav-dropdown header__nav-dropdown--categories">
-                <ul>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Action </a>
-                  </li>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Adventure </a>
-                  </li>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Animation </a>
-                  </li>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Biography </a>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Fantasy </a>
-                  </li>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Film-Noir </a>
-                  </li>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> History </a>
-                  </li>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Horror </a>
-                  </li>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Music </a>
-                  </li>
-                  <li>
-                    <a href="./categories.html" class="js-ajax-link"> Musical </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="header__nav-item">
-              <a href="./info.html" class="header__nav-link js-ajax-link"> Comedians </a>
-            </li>
-            <li class="header__nav-item">
-              <a href="./credits.html" class="header__nav-link js-ajax-link"> Events</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="header__right">
-        <div class="dropdown lng-dropdown">
-          <a href="#" class="dropdown__toggle" data-toggle="dropdown">
-            <span>My Account</span>
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="#">
-                <span>Profile</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span>Sign Out</span>
-              </a>
-            </li>
-          </ul>
+    <header class="page__header header ">
+        <div class="container">
+            <div class="header__left">
+                <a href="./index.html" class="logo js-ajax-link">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <a href="./index.html" class="logo js-ajax-link operator-logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="./index.html" class="header__nav-link js-ajax-link"> Home</a>
+                        </li>
+                        <li class="header__nav-item header__nav-item--dropdown">
+                            <a href="./categories.html" class="header__nav-link js-ajax-link mobile-ajax-off"> Categories </a>
+                            <div class="header__nav-dropdown header__nav-dropdown--categories">
+                                <ul>
+                                    <li>
+                                        <a href="./categories.html" class="js-ajax-link"> Stand Up</a>
+                                    </li>
+                                    <li>
+                                        <a href="./categories.html" class="js-ajax-link"> Comic </a>
+                                    </li>
+                                    <li>
+                                        <a href="./categories.html" class="js-ajax-link"> Sitcom </a>
+                                    </li>
+                                    <li>
+                                        <a href="./categories.html" class="js-ajax-link"> Comedy Skits </a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="./categories.html" class="js-ajax-link"> Arewa </a>
+                                    </li>
+                                    <li>
+                                        <a href="./categories.html" class="js-ajax-link"> Igbo Comedy </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./info.html" class="header__nav-link js-ajax-link"> Comedians </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./credits.html" class="header__nav-link js-ajax-link"> Events</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__right">
+                <div class="dropdown lng-dropdown">
+                    <a href="#" class="dropdown__toggle" data-toggle="dropdown">
+                        <span>My Account</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">
+                                <span>Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Sign Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="search-open"></a>
+                <a href="#" class="search-close"></a>
+            </div>
+            <!-- search form -->
+            <form action="#" method="post" class="search">
+                <input type="text" name="search" class="search__field" placeholder="Search Laffhub" autocomplete="off">
+                <button class="search__button" type="submit"></button>
+                <div class="search__enter"> Enter </div>
+            </form>
+            <!-- /search form -->
+            <a href="#" class="menu-open">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="#" class="menu-close">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         </div>
-        <a href="#" class="search-open"></a>
-        <a href="#" class="search-close"></a>
-      </div>
-      <!-- search form -->
-      <form action="#" method="post" class="search">
-        <input type="text" name="search" class="search__field" placeholder="Search Laffhub" autocomplete="off">
-        <button class="search__button" type="submit"></button>
-        <div class="search__enter"> Enter </div>
-      </form>
-      <!-- /search form -->
-      <a href="#" class="menu-open">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-      <a href="#" class="menu-close">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-    </div>
-    <div class="mobile-menu">
-      <div class="mobile-menu__scroll-content"> </div>
-    </div>
-  </header>
+        <div class="mobile-menu">
+            <div class="mobile-menu__scroll-content"> </div>
+        </div>
+    </header>
   <!--/HEADER-->
       <div id="content-ajax">
         <!--MAIN-->
